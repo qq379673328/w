@@ -3,6 +3,10 @@
 	border:0px 0px;
 }
 
+a{
+	text-decoration:blink;
+}
+
 .header{
 	width: 100%;
 	background: #ddd;
@@ -11,4 +15,32 @@
 
 .body{
 	width: 100%;
+}
+
+.topinfo{
+	height:30px;
+	width:100%;
+	background:#F82F36;
+	line-height:30px;
+}
+
+.circletag{
+	-moz-border-bottom-right-radius: 2em;
+	-webkit-border-bottom-right-radius: 2em;
+	border-bottom-right-radius: 2em;
+	-moz-border-bottom-left-radius: 2em;
+	-webkit-border-bottom-left-radius: 2em;
+	border-bottom-left-radius: 2em;
+}
+
+.topinfo a{
+	color: #fff;
+	background:#C99E95;
+	margin-left:5px;
+	padding-right:10px;
+	padding-left:10px;
+}
+
+.topinfo a:hover{
+	background-color:#C99000;
 }

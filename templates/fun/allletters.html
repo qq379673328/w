@@ -1,0 +1,25 @@
+<%include file="../base/header.html"/>
+<link tyle="text/css" rel="stylesheet" href="static/css/fun/allletters.css" />
+	<%
+		totalpage = total/limit if total%limit == 0 else total/limit +1
+	%>
+	<div class="info">
+	% if page > 1:
+	<a href="allletters/${page - 1}">上一批</a>
+	% endif
+	% if page < totalpage:
+	<a href="allletters/${page + 1}">下一批</a>
+	% endif
+	${page}/${totalpage}批
+	总数:${total}
+	</div>
+	% for letter in letters:
+	<a class="aletter" href="letter/${letter['_id']}">
+		<div class="letter">
+			<div class="title">
+				${letter['title'] }
+			</div>
+		</div>
+	</a>
+	%endfor
+<%include file="../base/footer.html"/>

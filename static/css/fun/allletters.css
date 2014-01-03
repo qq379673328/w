@@ -1,0 +1,47 @@
+a{
+	text-decoration:blink;
+}
+
+.letter .title{
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #EC5D62;
+	padding-left: 30px;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 3px solid #EE8F92;
+	color: #FFF;
+}
+
+.letter .title:hover{
+	background-color: #CE9193;
+}
+
+.letter .content{
+	font-size: 12px;
+	background-color: #FCE1CC;
+	padding: 5px 20px 5px 20px;
+	margin-left: 23px;
+	margin-right: 23px;
+}
+
+.letter .content p{
+	border-bottom: 1px solid #FFF;
+	padding-top: 3px;
+	line-height: 2em;
+}
+
+.info{
+	background:#EE8F92;
+}
+
+.info a{
+	color: white;
+	text-decoration: blink;
+	background: rgb(163, 80, 80);
+}
+
+.info a:hover{
+	color: #eee;
+	background: rgb(163, 0, 0);
+}
